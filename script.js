@@ -39,10 +39,8 @@ for (let i = 0; i < 10; i++) {
 
 //- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
-let words = ['Hello', 'Jules', 'Flowers', 'Books', 'Summer', 'You', 'Love', 'Winter', 'Spoon', 'Cup'];
-
-for (key in words) {
-    document.write(`${words[key]} (${key})` + '<br>');
+for (let i = 0; i < 10; i++) {
+    document.write(`<div> Goog afternoon : ${i} </div>` + '<br>');
 }
 
 
@@ -59,14 +57,33 @@ while (i < 20) {
 
 
 //- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+
 i = 0;
 while (i < 20) {
-    document.write ('<h1> Goog morning </h1>');
+    document.write (`<h1> Goog evening : ${i} </h1>`);
     i++;
 }
 
 
-//sgvdgfbdfgbg
+
+//- Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
+
+let arr5 = [45, 78, -56, -96, 4, 70, -34, 7567, 3, 7];
+
+for (let i = 0; i < arr5.length; i++) {
+    document.write (arr5[i] + '<br>')
+}
+
+
+
+
+//- Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
+
+let arr6 = ['Summer', 'Mom', 'Flowers', 'Sea', 'Teacher', 'Tree', 'Glasses', 'Water', 'Sun', 'Arms'];
+for (let i = 0; i < arr6.length; i++) {
+    document.write(arr6 [i] + '<br>')
+}
+
 
 
 
